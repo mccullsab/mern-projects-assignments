@@ -1,0 +1,7 @@
+db.animals.insertOne({species: 'bunny', name: 'hunny', habitat: 'field'})
+db.animals.insertOne({species: 'kangaroo', name: 'boxer', habitat: 'forrest'})
+db.animals.insertOne({species: 'llama', name: 'jane', habitat: 'farm'})
+db.animals.insertOne({species: 'fish', name: 'fishy', habitat: 'pond', age: 2})
+
+
+db.animals.find()
